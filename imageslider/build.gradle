@@ -1,5 +1,31 @@
 apply plugin: 'com.android.library'
 
+ext {
+
+    bintrayRepo = 'android'
+    bintrayName = 'imageslider'
+
+    publishedGroupId = 'com.github.patelpinal'
+    libraryName = 'imageslider'
+    artifact = 'imageslider'
+
+    libraryDescription = 'Simple, and easy android image slider with image and indicatore animation'
+
+    siteUrl = 'https://github.com/PatelPinal'
+    gitUrl = 'https://github.com/PatelPinal/imageslider.git'
+
+    libraryVersion = '1.0.0'
+    //organization = 'smarteistbintray' // if you push to organization's repository.
+    developerId = 'PatelPinal'
+    developerName = 'Peenalkumar'
+    developerEmail = 'pinalkumar.shalom@hotmail.com'
+
+    /*licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]*/
+
+}
+
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
@@ -9,7 +35,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -32,3 +58,14 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
+
+/*
+task copyLibs(type: Copy) {
+    from configurations.libConfig
+    into 'libs'
+}
+*/
+
+/*apply from: 'https://raw.githubusercontent.com/PatelPinal/bintrayUpload/master/install.gradle'
+apply from: 'https://raw.githubusercontent.com/PatelPinal/bintrayUpload/master/bintray.gradle'*/
+
