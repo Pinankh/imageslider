@@ -5,7 +5,7 @@ You can easily load images with your custom layout, and there are many kinds of 
 
 # Demo
 
-<img src="/01.gif" width="300">
+<img src="/01.gif" width="200">
 
 Copy & Past this line in to your app level Gradle
 
