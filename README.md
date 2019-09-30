@@ -4,8 +4,8 @@ This is an amazing image slider for the Android .
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
 # Demo
-![](https://github.com/PatelPinal/imageslider/blob/master/gif/0.gif)
 
+<img src="/01.gif" width="300">
 
 Copy & Past this line in to your app level Gradle
 
