@@ -1,0 +1,2 @@
+include ':app', ':imageslider'
+rootProject.name='Android Image Slider'
