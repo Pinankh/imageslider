@@ -19,7 +19,7 @@ You can easily load images with your custom layout, and there are many kinds of 
 First put the slider view in your layout xml :
 
 ```xml
-        <com.smarteist.autoimageslider.SliderView
+        <om.peenal.slider.SliderView
                     android:id="@+id/imageSlider"
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
@@ -48,7 +48,7 @@ Or you can put it inside the cardView to look more beautiful :
                android:layout_width="match_parent"
                android:layout_height="wrap_content">
        
-               <com.smarteist.autoimageslider.SliderView
+               <om.peenal.slider.SliderView
                            android:id="@+id/imageSlider"
                            android:layout_width="match_parent"
                            android:layout_height="300dp"
