@@ -4,7 +4,7 @@ This is an amazing image slider for the Android .
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
 ```groovy
-     implementation 'com.github.patelpinal:imageslider:1.0.0'
+     implementation 'com.github.PatelPinal:imageslider:1.0.0'
 ```
 
 
