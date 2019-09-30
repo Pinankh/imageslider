@@ -3,9 +3,23 @@ This is an amazing image slider for the Android .
  
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
+Copy & Past this line in to your app level Gradle
+
 ```groovy
      implementation 'com.github.PatelPinal:imageslider:1.0.0'
 ```
+
+Copy & Past this line in to your project Gradle
+
+```groovy
+     allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
 
 
 ### New Feautures 
