@@ -3,6 +3,10 @@ This is an amazing image slider for the Android .
  
 You can easily load images with your custom layout, and there are many kinds of amazing animations you can choose.
 
+# Demo
+![](https://github.com/PatelPinal/imageslider/blob/master/gif/0.gif)
+
+
 Copy & Past this line in to your app level Gradle
 
 ```groovy
